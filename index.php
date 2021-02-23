@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head> <!-- Comentário: notar a identação -->
+        <title>Primeira Página</title>
+        <meta charset="utf-8" />
+        <link href="estilos/estilos_site.css" rel="stylesheet" type="text/css" />
+        <script src="js/comportamentos.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header>
+            cabeçalho.
+        </header>
+        
+        <main>
+            <aside>
+                menu do lado esquerdo.
+            </aside>
+            <article>
+                texto importante.
+                <button id="btn">Sou um botão de JavaScript</button>
+
+                <div>
+                    <h1>Histórico do mouse:</h1>
+                    <ol id="posicao-mouse">
+                        <li>Posição inicial</li>
+                    </ol>
+                </div>
+
+            </article>
+            <aside>
+                menu do lado direito.
+            </aside>
+        </main>
+        <footer>
+            rodapé.
+        </footer>
+
+       <!-- <p>
+            <h1>Nome</h1>
+            Meu nome é Tiago    
+        </p>
+        <p>
+            <h2>Faculdade</h2>
+            Estudo Web na Fatec
+        </p> -->
+    </body>
+</html>
